@@ -1,3 +1,6 @@
+//Koby Brown
+//Array of my products
+
 var products = [
     {"name" : "Louisville Slugger",
     "price" : 149.99,

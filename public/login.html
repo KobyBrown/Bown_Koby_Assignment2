@@ -1,5 +1,8 @@
+<!--Koby Brown-->
+<!--Code taken with help from W3 schools and screencast-->
+<!--Login form created-->
 <script>
-    // the code below I have taken help from the screencast on how to get started on assignment 2 and  alot of it is very similar to it
+    // the code below I have taken help from the screencast on how to get started on assignment 2
 </script>
 <!DOCTYPE html>
 <html lang="en">
@@ -8,38 +11,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style_4.css">
-    <title>Login page</title>
+    <link rel="" href="">
+    <title>Login Page</title>
 </head>
 
 <body>
+    <div class="login"
+        <h1>
+            Login to Bat Boy's
+        </h1>
 
     <script>
+        //Login form
         document.write(`<form action="process_login${location.search}" method="POST">`);
     </script>
+    <!--Creates input boxes for login info-->
+                  <p><input type="text" placeholder="Enter Username" name="uname" required></p>
+                  <p><input type="password" placeholder="Enter Password" name="psw" required></p>
+                  <p class="submit"><input type="submit" name="commit" value="Login"></p>
 
 
-    <div class="imgcontainer">
-        <img src="" alt="" class="">
     </div>
-
-    <div class="container">
-        <label for="username" id="username_label" Username></label>
-        <input type="text" placeholder="Enter Username" name="username" required>
-        <label for="password" id="password_label" Password></label>
-        <input type="password" placeholder="Enter Password" name="password" required>
-
-        <button type="submit">Login</button>
-
-        <label>
-            <input type="checkbox" checked="checked" name="remember"> Remember me
-        </label>
-    </div>
-
+<!--Cancel button takes costumers back to my products display page. New Member? Sign Up take costumers to registration page.-->
     <div class="container" style="background-color:#f1f1f1">
-        <button type="button" class="cancelbtn"> <a href="order_form.html">Cancel</button>
+        <button type="button" class="cancelbtn"> <a href="products_display.html">Cancel</button>
         <script>
-            document.write(`<span class="password">Forgot <a href="register.html${location.search}">password?</a></span>`);
+            document.write(`<span class="password"><a href="./register.html${location.search}">New Member? Sign Up!</a></span>`);
         </script>
     </div>
     </form>
