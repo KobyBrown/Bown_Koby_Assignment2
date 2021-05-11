@@ -77,12 +77,14 @@ response.redirect("login.html?" + qs.stringify(request.query));
 
 
 // Processes register form. Modified Code from Prof Port's Assignment 2 screencast
+//Referenced from classmates including Vincent Wang.
 app.post('/process_register', function (request, response, next) {
     request.query["uname"] = request.body["uname"];  
     request.query["email"] = request.body["email"]; 
     request.query["psw"] = request.body["psw"]; 
     request.query["pswRepeat"] = request.body["pswRepeat"];
     
+    //Referenced from classmates including Vincent Wang.
     // USERNAME VALIDATION:
     // Checks to make sure there are no special char in username
     var unameRegex = /^[A-Za-z0-9]+$/
